@@ -21,7 +21,7 @@ function App() {
     .then(data=>{
       console.log(data);
       if(data.insertedId){
-        alert('user create successfully')
+        
         form.reset()
       }
     })
